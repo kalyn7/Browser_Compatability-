@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="32236" started-at="2016-11-30T02:26:31Z" finished-at="2016-11-30T02:27:03Z">
+    <groups>
+    </groups>
+    <test name="Chrometest" duration-ms="19556" started-at="2016-11-30T02:26:31Z" finished-at="2016-11-30T02:26:51Z">
+      <class name="parallelTest.CrossBrowserScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@343f4d3d]" name="setup" is-config="true" duration-ms="2770" started-at="2016-11-29T18:26:31Z" finished-at="2016-11-29T18:26:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:parallelTest.CrossBrowserScript@343f4d3d]" name="testParameterWithXML" duration-ms="16769" started-at="2016-11-29T18:26:34Z" finished-at="2016-11-29T18:26:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- parallelTest.CrossBrowserScript -->
+    </test> <!-- Chrometest -->
+    <test name="FireFoxTest" duration-ms="32236" started-at="2016-11-30T02:26:31Z" finished-at="2016-11-30T02:27:03Z">
+      <class name="parallelTest.CrossBrowserScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@ae45eb6]" name="setup" is-config="true" duration-ms="12183" started-at="2016-11-29T18:26:31Z" finished-at="2016-11-29T18:26:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:parallelTest.CrossBrowserScript@ae45eb6]" name="testParameterWithXML" duration-ms="20045" started-at="2016-11-29T18:26:43Z" finished-at="2016-11-29T18:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- parallelTest.CrossBrowserScript -->
+    </test> <!-- FireFoxTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
